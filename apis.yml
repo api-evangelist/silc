@@ -1,10 +1,22 @@
 aid: silc
 name: SiLC
-description: 'SiLC is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'SiLC Technologies is a silicon photonics company headquartered in Monrovia,
+  California that builds integrated single-chip FMCW (frequency-modulated continuous-wave)
+  LiDAR — coherent 4D vision systems that capture depth, instantaneous velocity via
+  micro-Doppler, and dual-polarization intensity from one photonic chip. Its Eyeonic
+  product family spans Eyeonic Trace Ultra (a Class 1 laser line scanner for industrial
+  automation and inspection), Eyeonic Vista (an ultra-long-range perimeter security
+  and counter-UAS vision system with detection beyond 2 km), and Eyeonic Edge (high-precision
+  4D inspection of large objects). The company sells sensors, modules and vision chips
+  to industrial and AI robotics, perimeter security, and mobility customers. It was
+  founded by Dr. Mehdi Asghari and is backed in part by Honda. SiLC ships hardware,
+  not software services: as of this profile it publishes no public developer program,
+  API, SDK, documentation portal, or machine-readable specification.'
+image: https://silc.com/wp-content/uploads/2026/04/LOGO.png
 url: https://raw.githubusercontent.com/api-evangelist/silc/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
+x-harvest-source-url: https://forgeglobal.com/silc_stock/
 x-tier: stub
 x-tier-reason: harvest
 specificationVersion: '0.20'
@@ -12,6 +24,15 @@ created: '2026-08-05'
 modified: '2026-08-05'
 tags:
 - Company
+- Silicon Photonics
+- LiDAR
+- Machine Vision
+- Sensors
+- Semiconductors
+- Robotics
+- Perimeter Security
+- Computer Vision
+- Hardware
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +40,55 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/silc-domain-security.yml
+- type: LLMsTxt
+  url: llms/silc-llms.txt
 - type: Website
-  url: https://forgeglobal.com/silc_stock/
+  url: https://silc.com/
+- type: About
+  url: https://silc.com/about-us/
+- type: Products
+  url: https://silc.com/products/
+- type: Blog
+  url: https://silc.com/press-releases/
+- type: BlogFeeds
+  url: https://silc.com/feed/
+- type: News
+  url: https://silc.com/silc-in-the-news/
+- type: Events
+  url: https://silc.com/events/
+- type: ContactUs
+  url: https://silc.com/contact-us/
+- type: Careers
+  url: https://silc.com/join-us/
+- type: PrivacyPolicy
+  url: https://silc.com/privacy-policy/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/silctech/
+x-enrichment:
+  date: '2026-08-05'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: >-
+    SiLC Technologies is a silicon-photonics LiDAR chipmaker whose entire public web
+    presence is a 15-page WordPress marketing site (sitemap enumerated) with no
+    developers, docs, support, downloads or SDK page, and no docs./developer./api.
+    subdomain in DNS; product briefs are handed out through a "Request Product Brief"
+    sales form rather than a developer portal.
+  evidence:
+    - url: https://silc.com/developers/
+      status: 404
+    - url: https://silc.com/openapi.json
+      status: 404
+    - url: https://silc.com/.well-known/agent-card.json
+      status: 404
+    - url: https://silc.com/llms.txt
+      status: 404
+    - url: https://silc.com/wp-sitemap-posts-page-1.xml
+      status: 200
+  checked: '2026-08-05'
