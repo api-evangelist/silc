@@ -2,6 +2,20 @@
   "repo": "silc",
   "feeds": [
     {
+      "source": "https://silc.com/products/feed/",
+      "feed_url": "https://silc.com/products/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://silc.com/press-releases/feed/",
+      "feed_url": "https://silc.com/press-releases/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
       "source": "https://silc.com/products/",
       "feed_url": "https://silc.com/products/feed/",
       "title": "",
@@ -17,5 +31,5 @@
     }
   ],
   "post_count": 0,
-  "fetched": "2026-08-15T12:11:08Z"
+  "fetched": "2026-08-22T20:20:02Z"
 }
