@@ -12,6 +12,17 @@ description: 'SiLC Technologies is a silicon photonics company headquartered in 
   founded by Dr. Mehdi Asghari and is backed in part by Honda. SiLC ships hardware,
   not software services: as of this profile it publishes no public developer program,
   API, SDK, documentation portal, or machine-readable specification.'
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 image: https://silc.com/wp-content/uploads/2026/04/LOGO.png
 url: https://raw.githubusercontent.com/api-evangelist/silc/refs/heads/main/apis.yml
 x-type: company
