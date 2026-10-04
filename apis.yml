@@ -54,7 +54,7 @@ tags:
 - Semiconductors
 - Robotics
 - Perimeter Security
-- Computer-Vision
+- Computer Vision
 - Hardware
 tags_raw:
 - Company
@@ -67,6 +67,7 @@ tags_raw:
 - Perimeter Security
 - Computer Vision
 - Hardware
+- Computer-Vision
 apis: []
 maintainers:
 - FN: Kin Lane
